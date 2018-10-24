@@ -1,5 +1,9 @@
-package main;
+package main.controller;
 
+
+import main.fill.SeedFiller;
+import main.view.Raster;
+import main.renderer.Renderer;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
@@ -22,6 +26,7 @@ public class PgrfController {
         renderer = new Renderer(raster);
 
         seedFiller = new SeedFiller();
+        seedFiller.setRaster(raster);
     }
 
     private void initListeners() {

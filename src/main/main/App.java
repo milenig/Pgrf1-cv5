@@ -1,4 +1,7 @@
-package main;
+package main.main;
+
+import main.view.PgrfWindow;
+import main.controller.PgrfController;
 
 import javax.swing.*;
 

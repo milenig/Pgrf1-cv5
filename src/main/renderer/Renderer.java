@@ -1,5 +1,7 @@
-package main;
+package main.renderer;
 
+
+import main.view.Raster;
 
 public class Renderer {
 
